@@ -32,7 +32,6 @@ $ Makefile  README.md  nai_laser_on_off  nai_laser_on_off.cc  nai_laser_on_off.o
 Analyse the data
 ```
 $ ./nai_laser_on_off fed_0032_000000
-./nai_laser_on_off fed_0032_000000
 Input filename  : fed_0032_000000
 Output filename : fed_0032_000000.root
 Size of a single event: 10 bytes
