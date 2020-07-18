@@ -31,14 +31,15 @@ $ Makefile  README.md  nai_laser_on_off  nai_laser_on_off.cc  nai_laser_on_off.o
 ```
 Analyse the data
 ```
-$ ./nai_laser_on_off fed_0032_000000
-Input filename  : fed_0032_000000
-Output filename : fed_0032_000000.root
+$ ./nai_laser_on_off ./fed_0032_000000
+Input filename  : ./fed_0032_000000
+Output filename : ./fed_0032_000000.root
 Size of a single event: 10 bytes
 Event: 0x00000000000186a0, Position: 0x00000000000f4236 (999990) bytes
 Event: 0x0000000000030d40, Position: 0x00000000001e8476 (1999990) bytes
 Event: 0x00000000000493e0, Position: 0x00000000002dc6b6 (2999990) bytes
 Event: 0x0000000000061a80, Position: 0x00000000003d08f6 (3999990) bytes
+...
 ```
 
 ## How to see the tree
