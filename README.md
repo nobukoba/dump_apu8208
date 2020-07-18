@@ -19,11 +19,14 @@ $ Makefile  README.md  nai_laser_on_off.cc
 $ make
 g++ -pthread -std=c++11 -m64 -I/home/kobayash/cern/root_v6.18.04/include -c nai_laser_on_off.cc -o nai_laser_on_off.o
 g++ -pthread -std=c++11 -m64 -I/home/kobayash/cern/root_v6.18.04/include -o nai_laser_on_off nai_laser_on_off.o -L/home/kobayash/cern/root_v6.18.04/lib -lCore -lImt -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lROOTVecOps -lTree -lTreePlayer -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -lMultiProc -lROOTDataFrame -pthread -lm -ldl -rdynamic
+$ ls
+$ Makefile  README.md  nai_laser_on_off  nai_laser_on_off.cc  nai_laser_on_off.o
 ```
 ## How to use it
 Copy the raw data
 ```
 $ cp <usb memory>/fed_0032_000000 ./
+$ ls
 $ Makefile  README.md  nai_laser_on_off  nai_laser_on_off.cc  nai_laser_on_off.o  fed_0032_000000
 ```
 Analyse the data
