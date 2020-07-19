@@ -5,7 +5,7 @@
 - g++ compiler
 - CERN ROOT
 
-## How to clone
+## How to clone it
 On the terminal, clone the program.
 ```
 $ git clone https://github.com/nobukoba/dump_apu8208
@@ -16,7 +16,7 @@ $ ls
 $ Makefile  README.md  nai_laser_on_off.cc
 ```
 
-## How to compile
+## How to compile it
 On the terminal,
 ```
 $ ls
