@@ -1,5 +1,10 @@
 # dump_apu8208
 
+## Requirements
+- make command
+- g++ compiler
+- CERN ROOT
+
 ## How to clone
 On the terminal, clone the program.
 ```
